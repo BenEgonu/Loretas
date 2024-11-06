@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Loreta's Diner and Bar</title>
+</head>
+<body>
+
+
+<div>
+  <button class="button" onclick data-color="HOME">HOME</button>
+  <button class="button" onclick="window.location.href='http://127.0.0.1:5500/menu.html'">DINE IN OR TAKEAWAY MENU</button>
+  <button class="color-btn3" onclick="window.location.href='http://127.0.0.1:5500/loretasdelivery.html'">DELIVERY MENU</button>
+  <button class="color-btn4" data-color="Hours">OPENING HOURS & CONTACT NUMBER</button>
+</div>
+
+
+    <h1>Loreta's Diner and Bar</h1>
+
+    <h2> Welcome to Lorita's Diner and Bar</h2>
+
+    <p>At Loreta’s Diner & Bar, we invite you to experience the warm, authentic flavors of Filipino cuisine, served with a personal touch. Family-owned and operated, Loreta’s is not just a restaurant – it’s a reflection of our deep-rooted passion for sharing the rich culinary traditions of the Philippines with our community. Whether you choose to dine in our cozy, welcoming space or enjoy the convenience of delivery through our app, you’ll find that every meal at Loreta’s is prepared with care, love, and the freshest ingredients.
+
+    From the moment you walk through our doors, you’ll be treated like family, and every bite will transport you to the vibrant streets and kitchens of the Philippines. Our menu showcases a wide array of traditional Filipino dishes, bringing together the perfect blend of sweet, savory, and tangy flavors that our cuisine is known for. Whether you're a longtime lover of Filipino food or trying it for the first time, there's something for everyone at Loreta's.</p>
+
+    <h2>Discover the Flavors of Filipino Cuisine</h2>
+
+    <p>Filipino food is a celebration of diverse flavors and culinary influences, combining indigenous traditions with Spanish, Chinese, and American influences, among others. At Loreta’s, you’ll get a taste of these rich traditions through iconic dishes like Adobo, a tender meat dish braised in soy sauce, vinegar, and garlic, or Sinigang, a comforting tamarind-based soup that’s both savory and tangy. Don't miss out on the ever-popular Lechon Kawali, a crispy pork belly dish, or the hearty Kare-Kare, a peanut-based stew filled with vegetables and oxtail.
+
+    Filipino food is also known for its fun, shareable plates – perfect for enjoying with family and friends. Whether you're looking for a quick bite or a full feast, we aim to provide an unforgettable dining experience filled with the warmth and hospitality that Filipino culture is famous for.</p>
+
+    <div class="reservation-form">
+        <h1>Book a Table at Loreta's Diner & Bar</h1>
+        <form id="reservation-form">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+    
+          <label for="date">Reservation Date:</label>
+          <input type="date" id="date" name="date" required>
+    
+          <label for="time">Reservation Time:</label>
+          <input type="time" id="time" name="time" required>
+    
+          <label for="guests">Number of Guests:</label>
+          <input type="number" id="guests" name="guests" min="1" max="20" required>
+    
+          <label for="message">Special Requests:</label>
+          <textarea id="message" name="message" placeholder="Enter any special requests"></textarea>
+    
+          <button type="submit">Book Now</button>
+        </form>
+        <p id="confirmation"></p>
+      </div>
+
+
+      <div class="style-container">
+        <h3>Hours</h3>
+        <p class="style">Open</p>
+        <p class="style1">Monday - Friday 07:00 - 22:00</p>
+        <p class="style1">Saturday - Sunday 10:00 - 22:00</p>
+      </div>
+
+      <div class="location-container">
+        <h3>Location</h3>
+        <P class="style1">154 Fleet road London NW3 2QX tel:0207-267-6484</P>
+      </div>
+
+
+      <a href="#">Back to Top</a>
+    <br>
+      
+        
+    <script defer src="script.js"></script>
+</body>
+</html>
